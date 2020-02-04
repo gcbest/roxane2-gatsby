@@ -1,11 +1,12 @@
 import React from 'react';
+import {Link} from 'gatsby';
 
 export default () => 
 <header class="main-head">
     <div class="head-container">
 
-    <h1 class="logo"><a href="index.html">
-        <img src="./assets/images/logo_transparent_background.png" alt=""/></a></h1>
+    <h1 class="logo"><Link href="index.html">
+        <img src="./assets/images/logo_transparent_background.png" alt=""/></Link></h1>
 
     <div class="banner-info">
 
@@ -27,10 +28,10 @@ export default () =>
     </div>
     <nav class="main-nav">
     <ul>
-        <li><a class="nav-link" href="./index.html">Home</a></li>
-        <li><a class="nav-link" href="./about.html">About</a> </li>
-        <li><a class="nav-link" href="./publications.html">Publications</a></li>
-        <li><a class="nav-link" href="./contact.html">Contact</a></li>
+        <li><Link class="nav-link" to="/">Home</Link></li>
+        <li><Link class="nav-link" to="/about/">About</Link> </li>
+        <li><Link class="nav-link" to="/publications/">Publications</Link></li>
+        <li><Link class="nav-link" to="/contact/">Contact</Link></li>
     </ul>
     </nav>
 </header>
