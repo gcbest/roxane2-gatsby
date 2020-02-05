@@ -1,6 +1,9 @@
 import React from 'react';
 import {Link} from 'gatsby';
 import Logo from '../../assets/images/logo_transparent_background.png'
+import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
+
+
 
 export default () => 
 <header className="main-head">
@@ -16,12 +19,11 @@ export default () =>
 
         <ul className="top-social-media">
 
-        <li><a href="#" target="_blank" rel="noopener noreferrer"><i className="fa fa-facebook"></i></a></li>
+        <li><a href="#" target="_blank" rel="noopener noreferrer"><FaFacebookF/></a></li>
 
-        <li><a href="#" target="_blank" rel="noopener noreferrer"><i className="fa fa-twitter"></i></a></li>
+        <li><a href="#" target="_blank" rel="noopener noreferrer"><FaTwitter/></a></li>
 
-        <li><a href="https://www.linkedin.com/in/dr-roxane-gervais/" target="_blank" rel="noopener noreferrer"><i
-                className="fa fa-linkedin"></i></a>
+        <li><a href="https://www.linkedin.com/in/dr-roxane-gervais/" target="_blank" rel="noopener noreferrer"><FaLinkedinIn/></a>
         </li>
         </ul>
 
@@ -30,9 +32,9 @@ export default () =>
     <nav className="main-nav">
     <ul>
         <li><Link className="nav-link" to="/">Home</Link></li>
-        <li><Link className="nav-link" to="/about/">About</Link> </li>
-        <li><Link className="nav-link" to="/publications/">Publications</Link></li>
-        <li><Link className="nav-link" to="/contact/">Contact</Link></li>
+        <li><Link className="nav-link" to="/about">About</Link> </li>
+        <li><Link className="nav-link" to="/publications">Publications</Link></li>
+        <li><Link className="nav-link" to="/contact">Contact</Link></li>
     </ul>
     </nav>
 </header>

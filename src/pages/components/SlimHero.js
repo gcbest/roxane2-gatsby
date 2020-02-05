@@ -1,8 +1,9 @@
 import React from 'react';
+import WorkMeeting from '../../assets/images/work-meeting.jpg'
 
 export default () => (
     <div class="hero-img-wrap">
-        <img class="hero-background-img" src="./assets/images/work-meeting.jpg" alt="meeting"/>
+        <img class="hero-background-img" src={WorkMeeting} alt="meeting"/>
         <div class="hero-overlay"></div>
         <div class="hero-content-small">
             <div class="hero-text-small">
