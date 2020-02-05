@@ -1,17 +1,19 @@
 import React from "react"
 import Header from "./components/Header";
+import RotatingCity from '../assets/videos/rotating-city.webm'
+import Boris from '../assets/images/boris.png'
 
 export default () => (<div>
 
   <Header/>
   <div class="hero-video-wrap">
-    <video autoplay muted loop>
-      <source src="./assets/videos/rotating-city.webm" type="video/mp4"/>
+    <video autoplay="" muted="" loop="">
+      <source src={RotatingCity} type="video/mp4"/>
     </video>
     <div class="hero-overlay"></div>
     <div class="hero-content">
       <div class="hero-grid">
-        <img class="animated slideInUp" src="./assets//images/boris.png" alt="roxane"/>
+        <img class="animated slideInUp" src={Boris} alt="roxane"/>
         <div class="hero-text">
 
           <h1 class="name">Practical Psychology Consultancy Ltd.</h1>
