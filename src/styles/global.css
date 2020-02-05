@@ -424,18 +424,18 @@
   /************** MEDIA QUERIES **************/
   
   @media (max-width: 1000px) {
-    .side .full-text {
+    /* .side .full-text {
       display: none;
-    }
+    } */
   
-    .side .short-text {
+    /* .side .short-text {
       display: list-item;
       list-style: square inside;
       color: var(--theme-color);
       border-bottom: 1px solid #d7d7d7;
       margin: 1rem;
       font-size: 1.2rem;
-    }
+    } */
   }
   
   @media (max-width: 840px) {
