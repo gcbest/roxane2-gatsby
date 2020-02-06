@@ -1,5 +1,6 @@
 import React, {Fragment} from 'react';
 import Layout from './components/Layout';
+import ProfilePic from '../assets/images/roxane-linkedin.jpeg'
 
 
 export default () => (
@@ -24,7 +25,7 @@ export default () => (
 
                 </p>
                 <img className="about-me-pic"
-                    src="https://media-exp1.licdn.com/dms/image/C4E03AQGYVu_pG83n2w/profile-displayphoto-shrink_200_200/0?e=1585180800&v=beta&t=ZCocbvdq_QGFgEuhgTy-1iULcMIKCk6eV8J89Fad4XI"
+                    src={ProfilePic}
                     alt="linkedIn picture"/>
             </div>
             <div className="youtube-area">
