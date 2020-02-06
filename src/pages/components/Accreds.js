@@ -4,7 +4,7 @@ import Accred2 from '../../assets/images/hpc-reg-logo.png';
 
 
 export default () => (
-    <div class="accreds">
+    <div className="accreds">
         <img src={Accred1} alt="accred1"/>
         <img src={Accred2} alt="accred2"/>
     </div>

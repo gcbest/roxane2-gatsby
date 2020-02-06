@@ -1,8 +1,8 @@
 import React from 'react';
 
 export default () => (
-    <footer class="main-footer">
-        <div class="about">
+    <footer className="main-footer">
+        <div className="about">
             <h2>About Roxane</h2>
             Dr. Gervais is a highly goal-oriented professional with strong data analytic and interpretation experience. Highly
             experienced in
@@ -12,7 +12,7 @@ export default () => (
             combined with a commitment to excellence in all projects undertaken. Strong communication and presentation
             skills.
         </div>
-        <div class="posts">
+        <div className="posts">
         <h2>Recent Posts</h2>
         <ul>
             <li>One</li>
@@ -20,10 +20,17 @@ export default () => (
             <li>Three</li>
         </ul>
         </div>
-        <div class="contact">
+        <div className="contact">
             <h2>Contact Us</h2>
-            <p>Roxane Gervais</p>
-            <p>55 Old Trattford Rd, Hull Yorkshire, North of the Wall</p>
+            <p>1st floor, Norwich House,</p>
+            <p>Savile Street,</p>
+            <p>Hull, East Riding of Yorkshire.</p>
+            <p>HU1 3ES.</p>
+            <p>+44 (0)1482 274551</p>
+            <p>+44 (0)7887 743295</p>
+            <p>roxane_gervais@alumni.fdu.edu</p>
+
+
         </div>
     </footer>
 )

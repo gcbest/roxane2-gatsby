@@ -31,9 +31,9 @@ export default () =>
     </div>
     <nav className="main-nav">
     <ul>
-        <li><Link className="nav-link" to="/">Home</Link></li>
         <li><Link className="nav-link" to="/about">About</Link> </li>
-        <li><Link className="nav-link" to="/publications">Publications</Link></li>
+        <li><Link className="nav-link" to="/services">Services</Link> </li>
+        <li><Link className="nav-link" to="/workshops">Workshops</Link> </li>
         <li><Link className="nav-link" to="/contact">Contact</Link></li>
     </ul>
     </nav>

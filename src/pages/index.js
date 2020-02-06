@@ -1,4 +1,5 @@
 import React from "react"
+import {Link} from 'gatsby';
 import Header from "./components/Header";
 import Accreds from './components/Accreds';
 import Aside from './components/Aside';
@@ -13,27 +14,27 @@ import AnimateStyles from './components/styles/animate.module.css';
 export default () => (
   <div>
     <Header/>
-    <div class="hero-video-wrap">
+    <div className="hero-video-wrap">
       <video autoplay="" muted="" loop="">
         <source src={RotatingCity} type="video/mp4"/>
       </video>
-      <div class="hero-overlay"></div>
-      <div class="hero-content">
-        <div class="hero-grid">
-          <img class={`${AnimateStyles.animated} ${AnimateStyles.slideInUp}`} src={Boris} alt="roxane"/>
-          <div class="hero-text">
+      <div className="hero-overlay"></div>
+      <div className="hero-content">
+        <div className="hero-grid">
+          <img className={`${AnimateStyles.animated} ${AnimateStyles.slideInUp}`} src={Boris} alt="roxane"/>
+          <div className="hero-text">
 
-            <h1 class="name">Practical Psychology Consultancy Ltd.</h1>
-            <h3>
+            <h1 className="font_1">Practical Psychology Consultancy Ltd.</h1>
+            <h3 className="font_2">
               Providing focused solutions to improve and enhance workers’ well-being performance, and productivity; as
               well as effective organisational functionality.
             </h3>
-            <a href="./contact.html"><button class="btn">Contact Roxane</button></a>
+            <Link to="./contact"><button className="btn">Contact Roxane</button></Link>
           </div>
         </div>
       </div>
     </div>
-    <div class="wrapper">
+    <div className="wrapper">
       <Home/>
       
       <Aside/>

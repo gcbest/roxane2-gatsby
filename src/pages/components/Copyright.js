@@ -1,7 +1,7 @@
 import React from 'react';
 
 export default () => (
-    <div class="copyright">
+    <div className="copyright">
         Copyright &copy; 2020 Roxane Gervais
     </div>
 );

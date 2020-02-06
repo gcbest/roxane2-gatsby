@@ -3,9 +3,7 @@ import Layout from './components/Layout';
 
 
 export default () => (
-    <Layout>
-        <article class="content">
-            <h1 class="content-header">About</h1>
+    <Layout contentHeader="About">
             <p>
                 <strong>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, quas beatae. Recusandae
                     veritatis asperiores odio blanditiis saepe molestiae, libero deserunt.</strong>
@@ -25,22 +23,21 @@ export default () => (
                     facere consequatur, animi temporibus laboriosam perferendis? Labore delectus adipisci aperiam?
 
                 </p>
-                <img class="about-me-pic"
+                <img className="about-me-pic"
                     src="https://media-exp1.licdn.com/dms/image/C4E03AQGYVu_pG83n2w/profile-displayphoto-shrink_200_200/0?e=1585180800&v=beta&t=ZCocbvdq_QGFgEuhgTy-1iULcMIKCk6eV8J89Fad4XI"
                     alt="linkedIn picture"/>
             </div>
-            <div class="youtube-area">
-                <div class="youtube-video">
+            <div className="youtube-area">
+                <div className="youtube-video">
                     <iframe src="https://www.youtube.com/embed/o9Y3M0M_axA" frameborder="0"
                         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen></iframe>
                 </div>
-                <div class="youtube-video">
+                <div className="youtube-video">
                     <iframe src="https://www.youtube.com/embed/aYImNDUTeWU" frameborder="0"
                         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen></iframe>
                 </div>
             </div>
-        </article>
     </Layout>
 );

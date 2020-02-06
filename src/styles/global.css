@@ -4,6 +4,15 @@
   /* old theme color rgb(0, 183, 241)*/
 }
 
+@font-face {
+  font-family: Libre;
+  src: url("https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap");
+}
+
+* {
+  font-family: "Libre Baskerville", serif;
+}
+
 .content {
   grid-area: content;
   margin: 1rem;
@@ -27,6 +36,19 @@ a:hover {
   color: lightgray;
 }
 
+.font_1 {
+  /* font: normal normal normal 32px/1.4em "libre baskerville", serif;
+  color: #444444; */
+  font: normal normal normal 32px/1.4em "libre baskerville", serif;
+  color: #191616cf;
+  font-weight: 700;
+}
+
+.font_2 {
+  font: normal normal normal 24px/1.4em "libre baskerville", serif;
+  color: #191616cf;
+}
+
 .banner-info {
   grid-area: nav;
 }
@@ -36,7 +58,7 @@ a:hover {
 }
 
 .side ul {
-  padding: 3rem 3rem 0 3rem;
+  padding: 1rem 3rem 0 3rem;
 }
 
 .side li {
@@ -51,21 +73,33 @@ a:hover {
   text-decoration: none;
 }
 
-.full-text {
-  list-style: square inside;
-  color: var(--theme-color);
-  border-bottom: 1px solid #d7d7d7;
-  margin: 1rem;
+.services {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-gap: 1rem;
+}
+
+.services h2 {
   font-size: 1.2rem;
 }
 
-.short-text {
-  display: none;
-  list-style: square inside;
-  color: var(--theme-color);
-  border-bottom: 1px solid #d7d7d7;
+.workshops {
+  display: flex;
+  align-items: center;
+}
+
+.workshops img {
+  max-height: 10rem;
+}
+
+.workshops div {
+  text-align: center;
+  padding: 2rem;
+}
+
+.workshops div :nth-child(3) {
   margin: 1rem;
-  font-size: 1.2rem;
 }
 
 .accreds {
@@ -100,6 +134,7 @@ a:hover {
   margin: 1rem auto;
   border: 1px solid #d7d7d7;
   border-radius: 0.5rem;
+  background-color: #fff;
   padding: 0.5rem;
   align-self: end;
 }
@@ -111,12 +146,11 @@ a:hover {
   grid-template-areas:
     "sidebar content content content"
     "accreds content content content";
+  background-color: #f2f3f4;
 }
 
 .head-container {
-  /* width: 960px; */
   max-width: 100%;
-  padding: 20px;
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -129,17 +163,11 @@ p .phone-number {
 }
 
 .banner-info {
-  /* display: flex;
-    flex-wrap: nowrap;
-    align-items: center;
-    justify-content: center;
-    margin-left: 1rem; */
-
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  margin: 2rem 0 0 0;
+  margin: 0 1rem;
 }
 
 .banner-info li {
@@ -157,6 +185,10 @@ p .phone-number {
 img {
   max-width: 100%;
   height: auto;
+}
+
+.main-head {
+  background-color: #f2f3f4;
 }
 
 .main-nav {
@@ -384,21 +416,28 @@ img {
 .contact-area {
   display: grid;
   align-items: center;
+  justify-items: center;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
 }
 
 .contact-area form {
   border: 0.5px solid #d7d7d7;
+  background-color: #fff;
   border-radius: 2rem;
   padding: 2rem;
   max-width: 50%;
   min-width: fit-content;
   max-height: 18rem;
-  margin: 2rem auto;
+  margin: 2rem 3rem;
 }
 
 .contact-area textarea {
   margin: 1rem 0;
+}
+
+.contact-area h3 {
+  margin: 0.8rem;
+  font-weight: 300;
 }
 
 .contact-area form button[type="submit"] {
@@ -411,7 +450,7 @@ footer h2 {
   margin: 0 0 1rem 0;
 }
 
-.mapouter {
+.maprouter {
   position: relative;
   text-align: right;
   margin: 0 auto;
@@ -423,22 +462,6 @@ footer h2 {
 }
 
 /************** MEDIA QUERIES **************/
-
-@media (max-width: 1000px) {
-  /* .side .full-text {
-      display: none;
-    } */
-
-  /* .side .short-text {
-      display: list-item;
-      list-style: square inside;
-      color: var(--theme-color);
-      border-bottom: 1px solid #d7d7d7;
-      margin: 1rem;
-      font-size: 1.2rem;
-    } */
-}
-
 @media (max-width: 840px) {
   .mapouter {
     margin: 0 3rem;
@@ -484,13 +507,17 @@ footer h2 {
   .logo img {
     max-width: 100%;
   }
+
+  .banner-info {
+    margin: 0 0 0 2rem;
+  }
 }
 
 /***** MOBILE *****/
 
 @media (max-width: 500px) {
   .banner-info {
-    margin: 0;
+    margin: 0 1rem 1rem 1rem;
   }
 
   .hero-text .btn {

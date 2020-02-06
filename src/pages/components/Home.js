@@ -2,8 +2,8 @@ import React from 'react';
 
 
 export default () => (
-  <article class="content">
-        <h1 class="content-header">Main article area</h1>
+  <article className="content">
+        <h1 className="content-header">Main article area</h1>
         <p>
           In this layout, we display the areas in source order for any screen
           less that 500 pixels wide. We go to a two column layout, and then to a

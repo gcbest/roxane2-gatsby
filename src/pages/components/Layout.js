@@ -9,8 +9,11 @@ import Copyright from './Copyright';
 export default (props) => (
     <Fragment>
         <HeaderSlimHero/>
-        <div class="wrapper">
-            {props.children}
+        <div className="wrapper">
+        <article className="content">
+			<h1 className="content-header">{props.contentHeader}.</h1>
+                {props.children}
+            </article>
             <Aside/>
             <Accreds/>
         </div>
