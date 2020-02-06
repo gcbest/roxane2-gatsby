@@ -15,13 +15,13 @@ export default () => (
   <div>
     <Header/>
     <div className="hero-video-wrap">
-      <video autoplay="" muted="" loop="">
+      <video autoplay="true" muted="true" loop="true">
         <source src={RotatingCity} type="video/mp4"/>
       </video>
       <div className="hero-overlay"></div>
       <div className="hero-content">
         <div className="hero-grid">
-          <img className={`${AnimateStyles.animated} ${AnimateStyles.slideInUp}`} src={Boris} alt="roxane"/>
+          <img className={`${AnimateStyles.animated} ${AnimateStyles.slideInUp} animated-pic`} src={Boris} alt="roxane"/>
           <div className="hero-text">
 
             <h1 className="font_1">Practical Psychology Consultancy Ltd.</h1>
@@ -29,7 +29,7 @@ export default () => (
               Providing focused solutions to improve and enhance workers’ well-being performance, and productivity; as
               well as effective organisational functionality.
             </h3>
-            <Link to="./contact"><button className="btn">Contact Roxane</button></Link>
+            <Link to="./contact"><button className="btn">Contact Us</button></Link>
           </div>
         </div>
       </div>

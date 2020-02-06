@@ -76,8 +76,8 @@ a:hover {
 .services {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(5, 1fr);
-  grid-gap: 1rem;
+  grid-row-gap: 2rem;
+  grid-column-gap: 0rem;
 }
 
 .services h2 {
@@ -518,6 +518,10 @@ footer h2 {
 @media (max-width: 500px) {
   .banner-info {
     margin: 0 1rem 1rem 1rem;
+  }
+
+  .animated-pic {
+    display: none;
   }
 
   .hero-text .btn {

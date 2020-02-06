@@ -13,7 +13,7 @@ export default () => (
                 <h3>
                     Enjoy the productivity benefits of working with one of the UK's best Occupational Psychologists
                 </h3>
-                <Link to="/contact" className="btn">Contact Roxane</Link>
+                <Link to="/contact" className="btn">Contact Us</Link>
             </div>
         </div>
     </div>
