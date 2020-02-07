@@ -30,14 +30,14 @@ export default () => (
             </div>
             <div className="youtube-area">
                 <div className="youtube-video">
-                    <iframe src="https://www.youtube.com/embed/o9Y3M0M_axA" frameborder="0"
+                    <iframe src="https://www.youtube.com/embed/o9Y3M0M_axA" frameBorder="0"
                         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>
+                        allowFullScreen></iframe>
                 </div>
                 <div className="youtube-video">
-                    <iframe src="https://www.youtube.com/embed/aYImNDUTeWU" frameborder="0"
+                    <iframe src="https://www.youtube.com/embed/aYImNDUTeWU" frameBorder="0"
                         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>
+                        allowFullScreen></iframe>
                 </div>
             </div>
     </Layout>

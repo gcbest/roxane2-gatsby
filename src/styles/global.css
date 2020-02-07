@@ -84,6 +84,10 @@ a:hover {
   font-size: 1.2rem;
 }
 
+.services p {
+  line-height: 1.5rem;
+}
+
 .workshops {
   display: flex;
   align-items: center;
