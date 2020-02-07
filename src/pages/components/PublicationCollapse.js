@@ -1,8 +1,8 @@
 import React, {useState} from 'react';
 import publicationsStyles from "./styles/publications.module.css";
 
-export default ({details}) => {
-    const {title, description, url} = details;
+export default (props) => {
+    const {details: {title, description, url}} = props;
     const [open, setOpen] = useState(false);
 
     const handleToggle = () => {
