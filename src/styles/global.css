@@ -292,7 +292,7 @@ img {
 }
 
 .hero-text-small {
-  padding: 4rem;
+  padding: 0 4rem;
 }
 
 .hero-grid {
@@ -543,7 +543,7 @@ footer h2 {
   }
 
   .hero-text-small {
-    padding: 3rem 2rem;
+    padding: 1rem 2rem;
   }
 }
 
