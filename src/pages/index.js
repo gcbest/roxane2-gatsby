@@ -15,7 +15,7 @@ export default () => (
   <div>
     <Header/>
     <div className="hero-video-wrap">
-      <video autoplay={true} muted={true} loop={true}>
+      <video autoplay="true" muted="true" loop="true">
         <source src={RotatingCity} type="video/mp4"/>
       </video>
       <div className="hero-overlay"></div>

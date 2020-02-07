@@ -71,3 +71,9 @@
   font-size: 1.2rem;
   color: rgb(225, 58, 68) !important;
 }
+
+@media (max-width: 500px) {
+  .panel-group {
+    max-width: 100%;
+  }
+}

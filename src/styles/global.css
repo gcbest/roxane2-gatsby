@@ -78,10 +78,12 @@ a:hover {
   grid-template-columns: repeat(2, 1fr);
   grid-row-gap: 2rem;
   grid-column-gap: 0rem;
+  width: 80%;
 }
 
 .services h2 {
   font-size: 1.2rem;
+  padding: 2rem;
 }
 
 .services p {
@@ -396,6 +398,10 @@ img {
   font-size: 1.5rem;
 }
 
+.react-icons {
+  vertical-align: middle;
+}
+
 .youtube-area {
   display: flex;
   flex-wrap: wrap;
@@ -549,8 +555,12 @@ footer h2 {
   .hero-text-small {
     padding: 1rem 2rem;
   }
-}
 
-.react-icons {
-  vertical-align: middle;
+  .services {
+    width: 100%;
+  }
+
+  .services h2 {
+    text-align: center;
+  }
 }
