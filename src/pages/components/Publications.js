@@ -37,7 +37,7 @@ export default () => {
 
     return (
         <div className="publications-grid">
-            {publications.map(pub => <PublicationCollapse key={pub.url} details={pub}/>)}
+            {publications.map(pub => <PublicationCollapse key={pub.url} title={pub.title} description={pub.description} url={pub.url}/>)}
     </div>
     )
 };
