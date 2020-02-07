@@ -7,7 +7,7 @@ import Home from './components/Home';
 import Footer from './components/Footer';
 import Copyright from './components/Copyright';
 import RotatingCity from '../assets/videos/rotating-city.webm'
-import Boris from '../assets/images/boris.png'
+import ProfilePic from '../assets/images/roxy_transparent_background.png'
 import AnimateStyles from './components/styles/animate.module.css';
 
 
@@ -21,7 +21,7 @@ export default () => (
       <div className="hero-overlay"></div>
       <div className="hero-content">
         <div className="hero-grid">
-          <img className={`${AnimateStyles.animated} ${AnimateStyles.slideInUp} animated-pic`} src={Boris} alt="roxane"/>
+          <img className={`${AnimateStyles.animated} ${AnimateStyles.slideInUp} animated-pic`} src={ProfilePic} alt="roxane"/>
           <div className="hero-text">
 
             <h1 className="font_1">Practical Psychology Consultancy Ltd.</h1>
