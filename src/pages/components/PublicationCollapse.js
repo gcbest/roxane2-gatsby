@@ -2,7 +2,10 @@ import React, {useState} from 'react';
 import publicationsStyles from "./styles/publications.module.css";
 
 export default (props) => {
-    const {details: {title, description, url}} = props;
+    const title = props.details.title;
+    const description = props.details.description;
+    const url = props.details.url;
+
     const [open, setOpen] = useState(false);
 
     const handleToggle = () => {
