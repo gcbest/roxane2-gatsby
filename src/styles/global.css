@@ -388,18 +388,15 @@ img {
   margin: 1rem 0;
 }
 
-.publications-grid {
-  display: flex;
-  flex-direction: column;
+.about-details {
+  line-height: 1.5rem;
+  font-size: 1.1rem;
+  width: 85%;
 }
 
 .content-header {
   margin: 0 0 1rem 0;
   font-size: 1.5rem;
-}
-
-.react-icons {
-  vertical-align: middle;
 }
 
 .youtube-area {
@@ -467,6 +464,15 @@ footer h2 {
 .gmap_canvas {
   overflow: hidden;
   background: none !important;
+}
+
+.publications-grid {
+  display: flex;
+  flex-direction: column;
+}
+
+.react-icons {
+  vertical-align: middle;
 }
 
 /************** MEDIA QUERIES **************/

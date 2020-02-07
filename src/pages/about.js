@@ -5,25 +5,17 @@ import ProfilePic from '../assets/images/roxane-linkedin.jpeg'
 
 export default () => (
     <Layout contentHeader="About">
-            <p>
-                <strong>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, quas beatae. Recusandae
-                    veritatis asperiores odio blanditiis saepe molestiae, libero deserunt.</strong>
+            <h3>Practical Psychology Consultancy Ltd. works to support all aspects of your work to ensure your desired outcome.</h3>
+            <p className="about-details">
                 <br/>
-                In this layout, we display the areas in source order for any screen
-                less that 500 pixels wide. We go to a two column layout, and then to a
-                three column layout by redefining the grid, and the placement of items
-                on the grid.
+                We are a team of experienced and regulated psychologists. Using an evidenced-based approach, we will work with you to develop a bespoke solution to address those safety, health and overall well-being issues, inclusive of mental health, which have arisen in your workplace. We will ensure that the solution adds value to your organisational practices and enhances your organisational culture.
+            </p>
+            <br/>
+            <p className="about-details">
+            Dr. Roxane Gervais is a highly goal-oriented professional with strong data analytic and interpretation experience. Highly experienced in research design, survey design, psychological assessment, organisational change, organisational development, psychometrics, and career development. Extremely organised with the ability to manage multiple projects and meet deadlines. Years of experience working in diverse teams and in international environments. A strong work ethic combined with a commitment to excellence in all projects undertaken. Strong communication and presentation skills.
             </p>
             <br/>
             <div>
-
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione placeat repudiandae similique
-                    consequatur ipsa ab illo, vitae rerum nisi molestias optio dolorum officia. Ea quam reprehenderit
-                    repudiandae repellendus doloremque aliquid odio cum repellat cumque optio ullam quas fuga magni aut
-                    facere consequatur, animi temporibus laboriosam perferendis? Labore delectus adipisci aperiam?
-
-                </p>
                 <img className="about-me-pic"
                     src={ProfilePic}
                     alt="linkedIn picture"/>
