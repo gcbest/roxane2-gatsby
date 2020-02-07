@@ -9,7 +9,7 @@ export default () =>
 <header className="main-head">
     <div className="head-container">
 
-    <h1 className="logo"><Link href="/">
+    <h1 className="logo"><Link to="/">
         <img src={Logo} alt="logo"/></Link></h1>
 
     <div className="banner-info">

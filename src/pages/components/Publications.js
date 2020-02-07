@@ -15,63 +15,29 @@ export default () => {
         },
         {
             title: `Worker participation in the United Kingdom`,
-            description: '',
+            description: 'In the United Kingdom, worker participation is promoted as an essential element of the work environment. It is accepted that workers are key sources of information about the jobs in which they are engaged and are therefore in the best position to work with management as well as safety and health personnel to develop safer work systems and practices[1]. It is known also that effective worker participation, or the more widely used term in the United Kingdom, worker involvement, could help to reduce accidents and ill health[1]. This article explores worker participation and representation in respect of occupational safety and health (OSH) across the sector level and the enterprise level.',
             url: 'http://oshwiki.eu/wiki/Worker_participation_-_United_Kingdom' 
         },
         {
             title: `Detachment and recovery after work: An overview`,
-            description: '',
+            description: 'Psychological detachment, i.e. the need to detach from work, when not at work, is becoming more vital, due to the increasing technological advances that make it easier to stay connected to the workplace, through e.g., e-mail, ‘smart’ phones and teleworking. These changes have contributed to researchers progressively highlighting the importance of recovery from the work environment, especially in terms of maintaining a good balance between work and life, and thereby, enabling better health and wellbeing. This article discusses: the detachment and recovery concepts; their relationship; and impact on workers’ health, wellbeing and productivity.',
             url: 'http://oshwiki.eu/wiki/Detachment_and_recovery_after_work:_An_overview' 
         },
         {
             title: `Presenteeism: An overview`,
-            description: '',
+            description: 'Presenteeism as a concept is increasing in importance in the work environment. It occurs when workers go to work when ill and are unable to perform effectively due to their ill health. Due to this loss in productivity, it has been estimated that presenteeism costs organisations more than sickness absence, and as such should be monitored to a greater extent. It impacts on workers’ health, wellbeing and resilience, as well as organisational health. These issues are discussed as are the implications for workplace policies and practices to manage presenteeism.',
             url: 'http://oshwiki.eu/wiki/Presenteeism:_An_overview' 
         },
         {
             title: `Workaholism and the culture of competition: OSH consequences`,
-            description: '',
+            description: 'This article defines workaholism and the culture of competition. These concepts are not usually considered from an occupational safety and health (OSH) perspective. With respect to workaholism, most of the information on this topic thus far has either been anecdotal or has used a clinical approach[1]. However, as one of the consequences of these behaviours could be ill health, they should be viewed as a risk within the workplace. The benefits of addressing these behaviours in the work environment by implementing good practice are discussed.',
             url: 'http://oshwiki.eu/wiki/Workaholism_and_the_culture_of_competition:_OSH_consequences' 
-        },
-        {
-            title: `The effects of strategic organisational change and practices on psychosocial risks`,
-            description: '',
-            url: 'http://oshwiki.eu/wiki/The_effects_of_organisational_practices_on_psychosocial_risks' 
-        },
-        {
-            title: `Prevention of work-related violence to staff in the education sector`,
-            description: '',
-            url: 'http://oshwiki.eu/wiki/Prevention_of_work-related_violence_to_staff_in_the_education_sector' 
-        },
-        {
-            title: `Worker participation in the United Kingdom`,
-            description: '',
-            url: 'http://oshwiki.eu/wiki/Worker_participation_-_United_Kingdom' 
-        },
-        {
-            title: `Detachment and recovery after work: An overview`,
-            description: '',
-            url: 'http://oshwiki.eu/wiki/Detachment_and_recovery_after_work:_An_overview' 
-        },
-
-
-
-        
-
-
-
-
-
-
-
-
-
-
+        }
     ]
 
     return (
         <div className="publications-grid">
-            {publications.map(pub => <PublicationCollapse details={pub}/>)}
+            {publications.map(pub => <PublicationCollapse key={pub.url} details={pub}/>)}
     </div>
     )
 };

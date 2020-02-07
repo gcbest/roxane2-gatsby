@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import publicationsStyles from "./styles/publications.module.css"
+import publicationsStyles from "./styles/publications.module.css";
 
 export default ({details: {title, description, url}}) => {
     const [open, setOpen] = useState(false);
@@ -14,13 +14,16 @@ export default ({details: {title, description, url}}) => {
         return '';
     }
 
-   return (
-    <div className={`${publicationsStyles.panelGroup}`}>
-            <button type="button" onClick={handleToggle} className={`${publicationsStyles.collapsible} ${getClassNames()}`}>{title}</button>
-            <div className={open ? `${publicationsStyles.panelCollapse}`: `${publicationsStyles.panelCollapse} ${publicationsStyles.panelClose}`}>
-                {description}
-                <p><a href={url} target="_blank" rel="noopener noreferrer" className={`${publicationsStyles.viewArticle}`}>Read the report</a></p>
-            </div>
-    </div>
+    return (
+        <div className={`${publicationsStyles.panelGroup}`}>
+            <button type="button" onClick={handleToggle} className={`${publicationsStyles.collapsible} ${getClassNames()}`}>
+                <h3>{title}</h3>
+                <div className={open ? `${publicationsStyles.panelCollapse}`: `${publicationsStyles.panelCollapse} ${publicationsStyles.panelClose}`}>
+                    {description}
+                    <br/>
+                    <a href={url} target="_blank" rel="noopener noreferrer" className={`${publicationsStyles.viewArticle}`}>Read the report</a>
+                </div>
+            </button>
+        </div>
     );
 }
