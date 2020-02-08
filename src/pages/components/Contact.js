@@ -27,7 +27,7 @@ export default () => (
             </form>
 
             <div className="maprouter">
-                <div className="gmap_canvas"><iframe id="gmap_canvas"
+                <div className="gmap_canvas"><iframe id="gmap_canvas" title="office"
                         src="https://maps.google.com/maps?q=1st%20floor%2C%20Norwich%20House%2C%20Savile%20Street%2C%20Hull%2C%20East%20Riding%20of%20Yorkshire&t=&z=13&ie=UTF8&iwloc=&output=embed"
                         frameBorder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div>
             </div>

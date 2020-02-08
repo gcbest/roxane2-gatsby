@@ -1,4 +1,4 @@
-import React, {Fragment} from 'react';
+import React from 'react';
 import Layout from './components/Layout';
 import ProfilePic from '../assets/images/roxane-linkedin.jpeg'
 
@@ -18,16 +18,16 @@ export default () => (
             <div>
                 <img className="about-me-pic"
                     src={ProfilePic}
-                    alt="linkedIn picture"/>
+                    alt="linkedIn"/>
             </div>
             <div className="youtube-area">
                 <div className="youtube-video">
-                    <iframe src="https://www.youtube.com/embed/o9Y3M0M_axA" frameBorder="0"
+                    <iframe src="https://www.youtube.com/embed/o9Y3M0M_axA" frameBorder="0" title="roxane"
                         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                         allowFullScreen></iframe>
                 </div>
                 <div className="youtube-video">
-                    <iframe src="https://www.youtube.com/embed/aYImNDUTeWU" frameBorder="0"
+                    <iframe src="https://www.youtube.com/embed/aYImNDUTeWU" frameBorder="0" title="employee-wellness"
                         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                         allowFullScreen></iframe>
                 </div>
