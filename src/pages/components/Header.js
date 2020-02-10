@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from "react-helmet";
 import {Link} from 'gatsby';
 import Logo from '../../assets/images/logo_transparent_background.png'
 import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
@@ -7,6 +8,11 @@ import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
 
 export default () => 
 <header className="main-head">
+    <Helmet>
+        <meta charSet="utf-8" />
+        <title>Practical Psychology Consultancy</title>
+        <link rel="canonical" href="https://www.practicalpsychologyconsultancy.com" />
+    </Helmet>
     <div className="head-container">
 
     <h1 className="logo"><Link to="/">
