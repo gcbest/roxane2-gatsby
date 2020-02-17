@@ -562,11 +562,9 @@ footer li {
     margin: 1rem 0 0.5rem 0;
   }
 
-  /* .hero-grid img {
-    align-self: end;
-    max-height: 175%;
-    margin: 0 auto;
-  } */
+  .home {
+    padding: 1rem 1rem;
+  }
 
   .hero-text-small {
     padding: 1rem 2rem;
