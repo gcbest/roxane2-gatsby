@@ -5,7 +5,7 @@ import ProfilePic from '../assets/images/roxane-linkedin.jpeg'
 
 export default () => (
     <Layout contentHeader="About">
-            <h3>Practical Psychology Consultancy Ltd. works to support all aspects of your work to ensure your desired outcome.</h3>
+            <h3>Practical Psychology Consultancy Ltd works to support all aspects of your work to ensure your desired outcome.</h3>
             <p className="about-details">
                 <br/>
                 We are a team of experienced and regulated psychologists. Using an evidenced-based approach, we will work with you to develop a bespoke solution to address those safety, health and overall well-being issues, inclusive of mental health, which have arisen in your workplace. We will ensure that the solution adds value to your organisational practices and enhances your organisational culture.

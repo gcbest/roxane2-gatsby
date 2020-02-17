@@ -1,21 +1,18 @@
 import React from 'react';
 
-
 export default () => (
-  <article className="content">
-        <h1 className="content-header">Main article area</h1>
+  <article className="content home">
+        {/* <h1 className="content-header"></h1> */}
         <p>
-          In this layout, we display the areas in source order for any screen
-          less that 500 pixels wide. We go to a two column layout, and then to a
-          three column layout by redefining the grid, and the placement of items
-          on the grid.
+        Practical Psychology Consultancy Ltd focuses on the evidence to support effective working within organisations, between and within teams, and for individuals. We advocate building a strategy that has at its core the development of your workforce, which when supported with the relevant structures, policies, practices, and interventions, will be able to realise its potential. We will achieve this for you through progressing a bespoke solution to address those safety, health and overall well-being issues, inclusive of mental health, which have arisen in your workplace.
         </p>
         <br/>
         <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit, sunt! Porro facilis similique quo mollitia
-          aspernatur minus architecto quia, quos, quae hic possimus doloribus, repudiandae reiciendis neque quasi tempore
-          animi! Iste, in maiores eveniet nulla, doloremque fugiat at expedita recusandae necessitatibus molestias
-          voluptates laborum temporibus a dolor enim. Corrupti, hic.
+        As a team of experienced and regulated psychologists, and organisational consultants, we will work with you to address your work-relevant organisational concerns.
+        </p>
+        <br/>
+        <p>
+        We will ensure that the solution we develop and propose adds value to your organisational practices and enhances your organisational climate, as well as your organisational culture.
         </p>
   </article>
 )

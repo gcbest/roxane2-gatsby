@@ -37,7 +37,7 @@ export default () => {
     return (
         <footer className="main-footer">
             <div className="about">
-                <h2>Practical Psychology Consultancy Ltd.</h2>
+                <h2>Practical Psychology Consultancy Ltd</h2>
                 We are a team of experienced and regulated psychologists. Using an evidenced-based approach, we will work with you to develop a bespoke solution to address those safety, health and overall well-being issues, inclusive of mental health, which have arisen in your workplace. We will ensure that the solution adds value to your organisational practices and enhances your organisational culture.
             </div>
             <div className="posts">

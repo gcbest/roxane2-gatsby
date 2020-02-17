@@ -9,7 +9,7 @@ export default () => (
         <div className="hero-overlay"></div>
         <div className="hero-content-small">
             <div className="hero-text-small">
-                <h1 className="font_1">Practical Psychology Consultancy Ltd.</h1>
+                <h1 className="font_1">Practical Psychology Consultancy Ltd</h1>
                 <h3 className="font_2">
                 Providing focused solutions to improve and enhance workers’ well-being performance, and productivity; as
                 well as effective organisational functionality.
