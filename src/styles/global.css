@@ -310,8 +310,9 @@ img {
 .hero-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  height: 65vh;
+  height: 100%;
   grid-column-gap: 3rem;
+  grid-template-rows: repeat(1, 100%);
 }
 
 .about-hero {
