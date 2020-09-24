@@ -18,7 +18,7 @@ export default () => (
             <form className={`${pureStyles.pureForm} ${pureStyles.pureFormStacked}`} action="https://formspree.io/mgeabglg" method="POST">
                 <fieldset>
                     <input type="email" name="_replyto" placeholder="Your Email"/>
-                    <textarea className="pure-input-1" rows="4" cols="20" placeholder="Your message..."></textarea>
+                    <textarea className="pure-input-1" name="message" rows="4" cols="20" placeholder="Your message..."></textarea>
                     <IconContext.Provider value={{ style: { verticalAlign: 'middle' } }}>
                     <button type="submit" className={`${pureStyles.pureButton} ${pureStyles.pureButtonPrimary}`}><span style={{paddingBottom: '1rem'}}>Send</span> <FaRegEnvelope/>
                     </button>
