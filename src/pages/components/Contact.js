@@ -13,7 +13,7 @@ export default () => (
                 <h3>HU1 3ES.</h3>
                 <h3>+44 (0)1482 274551</h3>
                 <h3>+44 (0)7887 743295</h3>
-                <h3>roxane_gervais@alumni.fdu.edu</h3>
+                <h3>roxane.gervais@practicalpsychologyconsultancy.com</h3>
             </div>  
             <form className={`${pureStyles.pureForm} ${pureStyles.pureFormStacked}`} action="https://formspree.io/mgeabglg" method="POST">
                 <fieldset>
