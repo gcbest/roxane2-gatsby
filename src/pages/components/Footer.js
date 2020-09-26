@@ -54,7 +54,7 @@ export default () => {
                 <p>HU1 3ES.</p>
                 <p>+44 (0)1482 274551</p>
                 <p>+44 (0)7887 743295</p>
-                <p>roxane.gervais@practicalpsychologyconsultancy.com</p>
+                <p className="email"><span>roxane.gervais</span><span>@practicalpsychologyconsultancy.com</span></p>
 
 
             </div>
