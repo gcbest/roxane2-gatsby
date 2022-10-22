@@ -20,14 +20,11 @@ export default () =>
 
     <div className="banner-info">
 
-        <p className="phone-number"><span className="brand-color">Call:</span><a href="tel:+44 (0)1482 274551">+44 (0)1482
-            274551</a></p>
+        <p className="phone-number"><span className="brand-color">Call:</span><a href="tel:+44 (0)7887 743295">+44 (0)7887 743295</a></p>
 
         <ul className="top-social-media">
 
-        <li><a href="#" target="_blank" rel="noopener noreferrer"><FaFacebookF/></a></li>
-
-        <li><a href="#" target="_blank" rel="noopener noreferrer"><FaTwitter/></a></li>
+        <li><a href="https://twitter.com/roxanelgervais" target="_blank" rel="noopener noreferrer"><FaTwitter/></a></li>
 
         <li><a href="https://www.linkedin.com/in/dr-roxane-gervais/" target="_blank" rel="noopener noreferrer"><FaLinkedinIn/></a>
         </li>
@@ -39,7 +36,6 @@ export default () =>
     <ul>
         <li><Link className="nav-link" to="/about">About</Link> </li>
         <li><Link className="nav-link" to="/services">Services</Link> </li>
-        <li><Link className="nav-link" to="/workshops">Workshops</Link> </li>
         <li><Link className="nav-link" to="/contact">Contact</Link></li>
     </ul>
     </nav>

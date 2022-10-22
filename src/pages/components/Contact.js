@@ -7,11 +7,9 @@ import { IconContext } from "react-icons";
 export default () => (
         <div className="contact-area">
             <div>
-                <h3>1st floor, Norwich House,</h3>
-                <h3>Savile Street,</h3>
-                <h3>Hull, East Riding of Yorkshire.</h3>
-                <h3>HU1 3ES.</h3>
-                <h3>+44 (0)1482 274551</h3>
+                <h3>Unit 34, Craven Park Training and Enterprise Centre</h3>
+                <h3>Kingston-Upon-Hull</h3>
+                <h3>HU9 5HE</h3>
                 <h3>+44 (0)7887 743295</h3>
                 <h3 className="email"><span>roxane.gervais</span><span>@practicalpsychologyconsultancy.com</span></h3>
             </div>  

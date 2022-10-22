@@ -90,24 +90,6 @@ a:hover {
   line-height: 1.5rem;
 }
 
-.workshops {
-  display: flex;
-  align-items: center;
-}
-
-.workshops img {
-  max-height: 10rem;
-}
-
-.workshops div {
-  text-align: center;
-  padding: 2rem;
-}
-
-.workshops div :nth-child(2) {
-  margin: 1rem;
-}
-
 .accreds {
   grid-area: accreds;
 }

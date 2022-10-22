@@ -48,11 +48,9 @@ export default () => {
             </div>
             <div className="contact">
                 <h2>Contact Us</h2>
-                <p>1st floor, Norwich House,</p>
-                <p>Savile Street,</p>
-                <p>Hull, East Riding of Yorkshire.</p>
-                <p>HU1 3ES.</p>
-                <p>+44 (0)1482 274551</p>
+                <p>Unit 34, Craven Park Training and Enterprise Centre</p>
+                <p>Kingston-Upon-Hull</p>
+                <p>HU9 5HE</p>
                 <p>+44 (0)7887 743295</p>
                 <p className="email"><span>roxane.gervais</span><span>@practicalpsychologyconsultancy.com</span></p>
 
