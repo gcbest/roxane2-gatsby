@@ -26,8 +26,11 @@ export default () => (
 
             <div className="maprouter">
                 <div className="gmap_canvas"><iframe id="gmap_canvas" title="office"
-                        src="https://maps.google.com/maps?q=1st%20floor%2C%20Norwich%20House%2C%20Savile%20Street%2C%20Hull%2C%20East%20Riding%20of%20Yorkshire&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d271282.3763832949!2d-0.4930899966785164!3d53.691438506886456!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd6ecb5fb58ceecf!2sThe%20Craven%20Park%20Training%20and%20Enterprise%20Centre!5e0!3m2!1sen!2sus!4v1666449379423!5m2!1sen!2sus"
                         frameBorder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div>
             </div>
         </div>
 );
+
+
+

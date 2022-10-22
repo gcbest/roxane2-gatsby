@@ -24,6 +24,8 @@ export default () =>
 
         <ul className="top-social-media">
 
+        <li><a href="#" target="_blank" rel="noopener noreferrer"><FaFacebookF/></a></li>
+
         <li><a href="https://twitter.com/roxanelgervais" target="_blank" rel="noopener noreferrer"><FaTwitter/></a></li>
 
         <li><a href="https://www.linkedin.com/in/dr-roxane-gervais/" target="_blank" rel="noopener noreferrer"><FaLinkedinIn/></a>
